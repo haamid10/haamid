@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        "Rubbik" :['Rubik', sans-serif]
+        "Rubbik" :['Rubik', 'sans-serif']
       },
       colors:{
         'green':'#02FF95',
