@@ -1,7 +1,7 @@
 import React from 'react'
 import CV from '../assets/intern.pdf'
 import Me from '../assets/1.png'
-
+import HeaderSocials from './HeaderSocials'
 const Header = () => {
   return (
    <header>
@@ -23,7 +23,9 @@ const Header = () => {
         <img src={Me} alt="Haamid" />
       </div>
 
-     
+     <div>
+      <HeaderSocials/>
+     </div>
     </div>
 
 
