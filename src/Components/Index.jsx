@@ -10,7 +10,7 @@ import Footer from './Footer'
 import About from './About'
 const Index = () => {
   return (
-    <div>
+    <div className=' font-Rubbik'>
       <Header/>
       <Navbar/>
       <About/>

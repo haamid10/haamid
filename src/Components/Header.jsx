@@ -4,7 +4,7 @@ import Me from '../assets/1.png'
 import HeaderSocials from './HeaderSocials'
 const Header = () => {
   return (
-   <header>
+   <header className='mt-32'>
     <div className=' flex flex-col items-center justify-start '>
       <div>
         <h5 className=' font-semibold mb-3'>Hello I'm</h5>
@@ -18,13 +18,16 @@ const Header = () => {
         <a className='  bg-green px-2 py-2 text-black rounded-md   font-semibold hover:text-white hover:bg-transparent hover:border-2 hover:border-green text-sm
         ' href='' view>Let's Talk</a>
       </div>
+        <div className='text-green mr-[70rem]'>
+        <HeaderSocials/>
+        </div>
+
 
       <div className='bg-gradient-to-b from-green rounded-full w-50 h-[15rem] mt-12'>
         <img src={Me} alt="Haamid" />
       </div>
 
      <div>
-      <HeaderSocials/>
      </div>
     </div>
 
