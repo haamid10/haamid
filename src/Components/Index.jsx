@@ -11,7 +11,7 @@ import About from './About'
 const Index = () => {
   return (
     <div>
-        <Header/>
+      <Header/>
       <Navbar/>
       <About/>
       <Experience/>
