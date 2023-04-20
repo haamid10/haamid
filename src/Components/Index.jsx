@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from './Header'
+import Header from './headerDive/Header'
 import Navbar from './Navbar'
 import Experience from './Experience'
 import Services from './Services'

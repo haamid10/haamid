@@ -1,6 +1,6 @@
 import React from 'react'
-import CV from '../assets/intern.pdf'
-import Me from '../assets/1.png'
+import CV from '../../assets/intern.pdf'
+import Me from '../../assets/1.png'
 import HeaderSocials from './HeaderSocials'
 const Header = () => {
   return (
@@ -18,13 +18,16 @@ const Header = () => {
         <a className='  bg-green px-2 py-2 text-black rounded-md   font-semibold hover:text-white hover:bg-transparent hover:border-2 hover:border-green text-sm
         ' href='' view>Let's Talk</a>
       </div>
-        <div className='text-green mr-[70rem]'>
+        
         <HeaderSocials/>
+        
+
+
+      <div className='relative'>
+        <div className='  left-10 bottom-5 bg-gradient-to-t from-green  rounded-full  mt-12'>
+        <img src={Me} className=' w-[20rem] rounded-lg' alt="Haamid" />
+
         </div>
-
-
-      <div className='bg-gradient-to-b from-green rounded-full w-50 h-[15rem] mt-12'>
-        <img src={Me} alt="Haamid" />
       </div>
 
      <div>

@@ -11,3 +11,11 @@ body{
   line-height: 1.7;
   background-image: url(../src/assets/bg-texture.png);
 }
+
+
+.socials{
+  content: '';
+  width: 1px;
+  height: 2rem;
+  background-color: #02FF95;
+}
