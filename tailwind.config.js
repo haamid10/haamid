@@ -10,7 +10,7 @@ export default {
         "Rubbik" :['Rubik', 'sans-serif']
       },
       colors:{
-        'green':'#02FF95',
+        'greeen':'#02FF95',
         // 'lightGreen':'#029991',
 
       },
