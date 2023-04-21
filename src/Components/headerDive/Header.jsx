@@ -13,11 +13,11 @@ const Header = () => {
         <div className='mr-12  gap-8 flex'>
         <a className=' border-2 border-greeen px-2 py-2 rounded-md  hover:bg-greeen text-sm text-center  font-semibold hover:text-black hover:border-none
         ' href={CV} view>View CV</a>
-        <a className='  bg-greeen px-2 py-2 text-black rounded-md   font-semibold hover:text-white hover:bg-transparent hover:border-2 hover:border-greeen text-sm
+        <a className='  bg-greeen p-2 text-center text-black rounded-md   font-semibold hover:text-white hover:bg-transparent hover:border-2 hover:border-greeen text-sm
         ' href='' view>Let's Talk</a>
       </div>
       </div>
-    <HeaderSocials className=""/>
+      <HeaderSocials className=""/>
 
 
       <div className='absolute top-72  me'>
