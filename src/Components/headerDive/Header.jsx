@@ -11,9 +11,9 @@ const Header = () => {
         <h1 className='font-bold text-4xl mb-2'>Hamiid apdi</h1>
         <h5 className='font-light mb-2'>Fullstack Developer</h5>
         <div className='mr-12  gap-8 flex'>
-        <a className=' border-2 border-greeen px-2 py-2 rounded-md  hover:bg-greeen text-sm text-center  font-semibold hover:text-black hover:border-none
+        <a className=' border border-greeen px-2 py-2 rounded-md  hover:bg-greeen text-sm text-center  font-semibold hover:text-black hover:border-none
         ' href={CV} view>View CV</a>
-        <a className='  bg-greeen p-2 text-center text-black rounded-md   font-semibold hover:text-white hover:bg-transparent hover:border-2 hover:border-greeen text-sm
+        <a className='  bg-greeen p-2 text-center text-black rounded-md   font-semibold hover:text-white hover:bg-transparent hover:border hover:border-greeen text-sm
         ' href='' view>Let's Talk</a>
       </div>
       </div>

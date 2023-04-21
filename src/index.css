@@ -19,6 +19,13 @@ body{
   height: 9rem;
   background-color: #02FF95;
 }
+.social{
+  content: '';
+  width: 2px;
+  height: 9rem;
+  background-color: #02FF95;
+  /* transform:rotate(90deg) ; */
+}
 .me{
   background:linear-gradient( #02FF95,transparent) ;
  width: 23rem;
