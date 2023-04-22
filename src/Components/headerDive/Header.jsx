@@ -1,6 +1,6 @@
 import React from 'react'
 import CV from '../../assets/intern.pdf'
-import Me from '../../assets/2.png'
+import Me from '../../assets/1.png'
 import HeaderSocials from './HeaderSocials'
 const Header = () => {
   return (
@@ -19,12 +19,13 @@ const Header = () => {
       </div>
       <HeaderSocials className=""/>
 
-
-      <div className='absolute top-72  me'>
-          
-          <img src={Me} className='  m3 ' alt="Haamid" />
-  
+<div>
+<div className='absolute top-72  me'>
       </div>
+      <img src={Me} className='  m3 ' alt="Haamid" />
+
+</div>
+      
 
      
 
