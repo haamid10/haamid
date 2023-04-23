@@ -19,11 +19,10 @@ const Header = () => {
       </div>
       <HeaderSocials className=""/>
 
-<div className=' mt-0 mr-8'>
+<div className=' '>
 <div className='  me'>
       </div>
       <img src={Me} className='  m3 ' alt="Haamid" />
-
 </div>
       
 
