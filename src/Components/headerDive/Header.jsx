@@ -6,17 +6,17 @@ const Header = () => {
   return (
    <header className='mt-12'>
     <div className=' flex flex-col items-center justify-start '>
-      <div className='sm:mb-4 lg:mb-12'>
+      <div className='mb-12'>
         <h5 className=' font-semibold lg:text-sm mb-3'>Hello I'm</h5>
         <h1 className='font-bold text-2xl lg:text-4xl mb-2'>Hamiid apdi</h1>
-        <h5 className='font-light mb-2 lg:text-xl text-sm'>mern-stack Developer</h5>
+        <h5 className='font-light mb-2  '>mern-stack Developer</h5>
         <div className='mr-12 gap-8  flex'>
         <a className=' border border-greeen px-2 py-2 rounded-md  hover:bg-greeen text-sm text-center  font-semibold hover:text-black hover:border-none
         ' href={CV} view>View CV</a>
         <a className='  bg-greeen p-2 text-center text-black rounded-md   font-semibold hover:text-white hover:bg-transparent hover:border hover:border-greeen text-sm
         ' href='' view>Let's Talk</a>
       </div>
-      </div>d
+      </div>
       <HeaderSocials className=""/>
 
 <div className=' mt-0 mr-8'>
