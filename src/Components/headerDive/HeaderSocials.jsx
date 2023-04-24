@@ -15,7 +15,7 @@ const HeaderSocials = () => {
       
     </div>
 
-    <a href="" className='absolute  text-greeen top-[15rem] left-[1rem] ml-[50rem]  w-32 font-light text-sm  rotate-90'>Scroll Down</a>
+    <a href="" className='absolute  text-greeen lg:top-[15rem] lg:left-[1rem] ml-[20rem] top-64 lg:ml-[50rem]  w-32 font-light lg:text-sm text-xs rotate-90'>Scroll Down</a>
     </div>
   )
 }
