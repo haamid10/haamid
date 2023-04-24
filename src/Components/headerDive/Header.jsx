@@ -4,8 +4,8 @@ import Me from '../../assets/1.png'
 import HeaderSocials from './HeaderSocials'
 const Header = () => {
   return (
-   <header className='mt-12'>
-    <div className=' flex flex-col items-center justify-start '>
+   <header className='mt-12 lg:px-0'>
+    <div className=' flex flex-col items-center justify-start lg:px-0  px-32'>
       <div className='mb-12'>
         <h5 className=' font-semibold lg:text-sm mb-3'>Hello I'm</h5>
         <h1 className='font-bold text-2xl lg:text-4xl mb-2'>Hamiid apdi</h1>
