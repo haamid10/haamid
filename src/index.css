@@ -46,7 +46,7 @@ body{
 }
 
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 575px) {
   .me{
     background:linear-gradient( #02FF95,transparent) ;
    width: 10rem;
