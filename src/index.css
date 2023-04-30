@@ -45,6 +45,28 @@ body{
   height:20rem;
 }
 
+.active:hover{
+ background-color: #02ff96c4;
+ opacity: 50%;
+ color: #0B1926;
+ padding: 0.3rem;
+ border-radius: 3rem;
+  
+}
+.nav{
+  position: fixed;
+  width: max-content;
+  display: block;
+  left: 50%;
+  bottom: 2rem;
+  gap: 2;
+  display: flex;
+  border-radius: 2rem;
+  backdrop-filter: blur(16px);
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.3);
+}
+
 
 @media screen and (max-width: 575px) {
   .me{
@@ -68,3 +90,4 @@ body{
     height:12rem;
   } 
 }
+

@@ -11,6 +11,7 @@ export default {
       },
       colors:{
         'greeen':'#02FF95',
+        'nav': 'rgba(0, 0, 0, 0.3);'
         // 'lightGreen':'#029991',
 
       },
